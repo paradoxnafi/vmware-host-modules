@@ -26,3 +26,15 @@ releases starting with 4.9.
 
 This repository is provided "as is" with no guarantees. Use the contents on
 your own risk.
+
+
+Build and install guide:
+First check your vmware version by typing the command "vmware -v".
+The output maybe something like "VMware Workstation 15.0.2 build-10952284".
+Now download the module for your version of vmware.
+wget https://github.com/mkubecek/vmware-host-modules/archive/workstation-15.0.2.tar.gz 
+Extract it "tar -xvf workstation-15.0.2.tar.gz"
+cd vmware-host-modules-workstation-15.0.2
+make
+sudo make install
+https://www.youtube.com/watch?v=0unvuAJ70TI (Not my channle)
